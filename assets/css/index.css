@@ -151,3 +151,8 @@ a:hover {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.logo-icon {
+    border-radius: 50px;
+    height: 33px;
+}
