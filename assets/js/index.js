@@ -1,7 +1,7 @@
 function set(){
     var user_name,result;
-    result = document.getElementById("user_name");
-    user_name = prompt("نام خود را وارد کنید");
+    result = document.getElementById("Result");
+    user_name = prompt("اسم شما چیه؟");
     if( user_name == null || user_name == "" ){
      result.innerHTML ="بدون نام";
     }
@@ -9,16 +9,12 @@ function set(){
      localStorage.setItem("UserName", user_name);
      get();
     }
-}
+   }
    
-function get(){
-    var result = document.getElementById("user_name");
+   function get(){
+    var result = document.getElementById("Result");
     var Uname = localStorage.getItem("UserName");
-    result.innerHTML = Uname;
-}
-
-function Del(){
-    localStorage.removeItem("user_name");
+    result.innerHTML = " سلام " + Uname + " خوبی؟ ";
    }
 
 const newLocal = document.getElementById("details").innerText = navigator.userAgent;
