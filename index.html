@@ -16,7 +16,7 @@
 
   </head>
 
-  <body>
+  <body onload="get();" id="">
 
     <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
       <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
@@ -78,7 +78,10 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fix0">
+              <li class="nav-item">
+                <a class="nav-link" id="user_name" dir="rtl"></a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link active" href="index.html">خانه</a>
               </li>
@@ -95,7 +98,7 @@
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="sign-in.html">ورود به حساب کاربری</a></li>
+                  <li><a class="dropdown-item" href="sign-in.html">حساب کاربری</a></li>
                 </ul>
               </li>
             </ul>
