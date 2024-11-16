@@ -1,11 +1,10 @@
-<!doctype html>
-<html lang="en" data-bs-theme="auto">
+<!DOCTYPE html>
+<html lang="en" dir="rtl" data-bs-theme="auto">
 
-  <head>
-    <script src="assets/js/color-modes.js"></script>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>خرید سی پی رسمی کلاف دیوتی موبایل</title>
     <meta name="description" content="بهترین سایت برای خریدن سی پی ارزان و با کیفیت کاملا قابل اطمینان و امن" />
     <meta name="keywords" content="CP, COD, Call Of Duty, Mobile, Free Cp, سی پی، کالاف، کالاف دیوتی، موبایل، سی پی رایگان، سی پی ارزان، سی پی با کیفیت، حاج محمد">
@@ -14,224 +13,103 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/index.css" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
+    <script src="assets/js/color-modes.js"></script>
     <noscript>شمرنده دستگاه شما یا مرورگرتان قدیمی است و از جاوا اسکریپت پشتیبانی نمیکند لظفا سیستم عامل یا مرورگر خود را بروزرسانی کنید</noscript>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"/>
+    <link rel="stylesheet" href="static/css/app.css">
+</head>
 
-  </head>
+<body onload="get();" id="">
 
-  <body onload="get();" id="">
-
-  <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-    <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
-      <svg class="bi my-1 theme-icon-active em1"><use href="#circle-half"></use></svg>
-      <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-    </button>
-    <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-      <li>
-        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"aria-pressed="false">
-          <svg class="bi me-2 opacity-50 em1"><use href="#sun-fill"></use></svg>
-          روشن
-          <svg class="bi ms-auto d-none em1"><use href="#check2"></use></svg>
-        </button>
-      </li>
-      <li>
-        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"aria-pressed="false">
-          <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
-          تاریک
-          <svg class="bi ms-auto d-none em1"><use href="#check2"></use></svg>
-        </button>
-      </li>
-      <li>
-        <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"aria-pressed="true">
-          <svg class="bi me-2 opacity-50 em1"><use href="#circle-half"></use></svg>
-          خودکار
-          <svg class="bi ms-auto d-none em1"><use href="#check2"></use></svg>
-        </button>
-      </li>
-    </ul>
-  </div>
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container container-fluid">
-      <a class="navbar-brand" href="#">ZEUS SHOPP<img src="assets/img/icon.jpg" class="logo-icon"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2">
-        <span class="navbar-toggler-icon"></span>
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-bd-primary py-2 d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active em1"><use href="#circle-half"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
       </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbar2Label">ZEUS SHOPP</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fix0">
-            <li class="nav-item"><a class="nav-link" id="Result" onclick="set();"></a></li>
-            <li class="nav-item"><a class="nav-link active" href="index.html">خانه</a></li>
-            <li class="nav-item"><a class="nav-link" href="#id1">بلاگ ما</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">بیشتر</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#id2">COD:MOBILE</a></li>
-                <li><a class="dropdown-item" href="#id2">COD:WARZONE</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="sign-in.html">حساب کاربری</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex mt-3 mt-lg-0" role="search">
-            <input class="form-control me-2" type="search" placeholder="دنبال چی هستی؟">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </nav>
-
-  <div class="header_offer bg_gradient_animation">
-    <div class="container">
-      <a href="https://rubika.ir/zeus_shopp"><p>خرید سی پی رسمی کالاف زیر قیمت</p></a>
-    </div>
-  </div>
-
-  <main class="container">
-    <a href="https://rubika.ir/zeus_shopp">
-      <div class="d-flex align-items-center p-3 my-3 text-white rounded shadow-sm bg-banner1">
-        <img src="assets/img/icon.jpg" class="me-3 logo-icon">
-        <div class="lh-1">
-          <h1 class="h6 mb-0 text-white lh-1">کانال اطلاع رسانی روبیکا ما</h1>
-          <small>هر روز کاستوم بتل دارای جوایز سی پی رایگان</small>
-        </div>
-      </div>
-    </a>
-  </main>
-
-  <main>
-
-
-    <div class="b-example-divider"></div>
-    <div class="album py-5 bg-body-tertiary" id="id1">
-      <div class="container">
-        <div class="flex-line">
-          <hr class="hr-about">
-          <h3 class="fs-2 text-body-emphasis">بلاگ</h3>
-        </div>
-        <br>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 left-right-48">
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="assets/img/pi1.jpg" class="bd-placeholder-img card-img-top">
-              <div class="text-on-img">
-                <small class="white text-body-secondary">MOBIN</small>
-              </div>
-              <div class="card-body card-text rtl">تمام اخبار کالاف موبایل سیزن جدید همراه با لو رفتن گان لجند رایگان کریت مشکی رنگ</div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="assets/img/pi3.jpg" class="bd-placeholder-img card-img-top">
-              <div class="text-on-img">
-                <small class="white text-body-secondary">MOBIN</small>
-              </div>
-              <div class="card-body card-text rtl">6 تا از بهترین اتچمنت های بتل رویال اسنایپ اس ام جی رایفل و مخصوص بتل رویال</div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="assets/img/pi4.jpg" class="bd-placeholder-img card-img-top">
-              <div class="text-on-img">
-                <small class="white text-body-secondary">MOBIN</small>
-              </div>
-              <div class="card-body card-text rtl">تمامی اخبار رسمی کالاف موبایل در مورد اسپکتر متیک همراه با فینیشر اختصاصی جدید</div>
-            </div>
-          </div>
-        </div>
-        <br>
-        <div class="center">
-          <button class="btn btn-primary mr5" type="button" disabled>
-            <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"aria-pressed="false">
+            <svg class="bi me-2 opacity-50 em1"><use href="#sun-fill"></use></svg>روشن<svg class="bi ms-auto d-none em1"><use href="#check2"></use></svg>
           </button>
-          <button class="btn btn-primary" type="button">
-            <span role="status">بیشتر...</span>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"aria-pressed="false">
+            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>تاریک<svg class="bi ms-auto d-none em1"><use href="#check2"></use></svg>
           </button>
-        </div>
-      </div>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"aria-pressed="true">
+            <svg class="bi me-2 opacity-50 em1"><use href="#circle-half"></use></svg>خودکار<svg class="bi ms-auto d-none em1"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
     </div>
     
-    <div class="b-example-divider"></div>
-    <div class="container px-4 py-5" id="id2">
-      <div class="flex-line">
-        <hr class="hr-about">
-        <h3 class="fs-2 text-body-emphasis">محصولات</h3>
-      </div>
-      <br>
-      <div class="row-auto g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="feature col right-left">
-          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-            <img src="assets/img/codm.jpg" class="icon-ic">
-          </div>
-          <h2 class="text-body-emphasis">COD:MOBILE</h2>
-          <p>کالاف دیوتی موبایل یکی از محبوب‌ترین بازی‌های شوتر اول شخص برای گوشی‌های هوشمند است که میلیون‌ها بازیکن را به خود جذب کرده است. این بازی از گرافیک بالا، گیم‌پلی سریع و هیجان‌انگیز، حالت‌های متنوع و آیتم‌های فراوان برخوردار است. اما برای بهره‌مندی از تمام امکانات و لذت بیشتر از بازی، نیاز به خرید سی پی دارید</p>
-          <a href="#"><button type="button" class="btn btn-outline-info">خرید محصولات کالاف موبایل</button></a>
-        </div>
-        <div class="feature col left-right">
-          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-            <img src="assets/img/codwm.jpg" class="icon-ic">
-          </div>
-          <h2 class="text-body-emphasis">COD:WARZONE</h2>
-          <p>فعلا بخش وارزون موبایل به سایت اظافه نشده است باید صبور باشید</p>
-          <a href="#"><button type="button" class="btn btn-outline-success">به زودی</button></a>
-        </div>
-      </div>
-    </div>
-  </main>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <a href="https://rubika.ir/install-android" class="header-link">
+                    <div class="logo">
+                        <img src="static/images/logo.svg">
+                    </div>
+                    <div class="btn-rubika btn-primary-rubika">نصب روبیکا</div>
+                </a>
+            </div>
+        </header>
+        <section class="main">
+            <div class="banner">
+                <img src="static/images/channel_messenger.svg">
+                <div class="chat-item">
+                    <div class="dialog-avatar">
+                        
+                            <img src="static/images/icon.jpg" class="dialog-avatar">
+                        
+                    </div>
+                    <div class="user-caption">
+                        <p class="dialog-title">
+                            
+                            <span class="user-title">خرید و فروش اکانت کالاف (ZEUS_SHOPP)🇮🇷</span>
+                            
+                        </p>
+                        
+                        <p class="dialog-subtitle">
+                            <span class="user-last-message">6,597 مشترک </span>
+                        </p>
+                        
+                    </div>
+                </div>
+    
+            </div>
+            <div class="container">
+                
+                    <a href="rubika://l.rubika.ir/zeus_shopp" class="btn-rubika btn-outline-primary btn-block">مشاهده کانال پیام‌رسان</a><div><br></div>
+                    <a href="web.html" class="btn-rubika btn-outline-primary btn-block">مشاهده وبسایت</a>           
+                
 
-  <div class="b-example-divider"></div>
-  <footer class="container py-5">
-    <div class="row">
-      <div class="col-6 col-md ltr">
-        <h5>ارتباط با ما</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary text-decoration-none" href="https://rubika.ir/zeus_shopp">کانال روبیکا</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">آیدی روبیکا</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">پشتیبانی سایت</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">چت هوشمند</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">تلفن - به زودی</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md ltr">
-        <h5>سامانه</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary text-decoration-none" href="#">سی پی رایگان</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">معاملات اکانت</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">واسطه گری</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">پیگیری سفارشات</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">انجمن پشتیبانی</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md ltr">
-        <h5>اخبار</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary text-decoration-none" href="#">گان متیک رایگان</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">کد سنس و هاد</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">سی پی گردونه ها</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">فیس دیس چی؟</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">سی پی منفی چی</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md ltr">
-        <h5>اعتماد</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary text-decoration-none" href="#">COD:M CP</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">COD:M REEDEM</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">COD:M FREE CP</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">COD:M GALLERY</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">به زودی وارزون</a></li>
-        </ul>
-      </div>
+                
+                <div class="l-title black">خرید و فروش اکانت کالاف (ZEUS_SHOPP)🇮🇷</div>
+                
+                
+                <div class="l-desc black">مدیریت: @HajMohammadcodZ
+حوزه در زمینه خرید و فروش سی‌پی، اکانت‌ سالم
+چنل خرید و فروش اکانت کالاف @ZEUS_SHOPP
+تنها آیدی واسطه چنل:
+@HajMohammadCodZ
+آیدی ادمین واریزیCP
+@ZEUS_ADMIN_CP
+آیدی کانال رضایت مشتری:
+@ZEUS_TRUST
+جهت ثبت آگهی به آیدی زیر پیام بدید
+@ZEUS_SHOPP_ADMIN
+@ZEUS_SHOPP_ADMIN3
+🤝🇮🇷</div>
+                
+                <div class="input-wrapper">
+                </div>
+            </div>
+        </section>
+
     </div>
-    <hr>
-    <div class="col-12 col-md">
-      <small class="mb-3 text-body-secondary end-footer">&copy; 2024–2024</small>
-    </div>
-  </footer>
 
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none"><symbol id="check2" viewBox="0 0 16 16"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" /></symbol><symbol id="circle-half" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" /></symbol><symbol id="moon-stars-fill" viewBox="0 0 16 16"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
 <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" /></symbol><symbol id="sun-fill" viewBox="0 0 16 16">
@@ -240,7 +118,5 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/index.js"></script>
     <script src="assets/js/jquery.min.js"></script>
-
   </body>
-
 </html>
